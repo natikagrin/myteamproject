@@ -41,12 +41,12 @@
     width: 12px;
     height: 9.82px;
 }
-.customer-reviewes .container{
+/*.customer-reviewes .container{
     @media screen and (min-width:320px) {
         max-width: 320px;
         
         }
-    }
+    }*/
 
 .customer-reviewes {
     margin-left: 123px;
@@ -58,24 +58,27 @@
 .cusomer_text-box{
     /*width: 100%;
     height: 138px;*/
-    background-color: #FAFAFA;
-    @media screen and (min-width: 320px) {
-            width: 280px;
-            height: 308px;
-            }
+   
+                        @media screen and (min-width: 320px) {
+                            max-width: 157px;
+                            margin: 43px 58px 26px 65px;
+            
+                        }
         }
-
 
 .customer__text{
 /*max-width: 750px;
 padding-top: 47px;
 padding-bottom: 39px;*/
-@media screen and (min-width: 320px) {
-    max-width: 157px;
-margin: 43px 58px 26px 65px;
+background-color: #FAFAFA;
+
+    @media screen and (min-width: 320px) {
+        /*width: 280px;*/
+        height: 308px;
+    }
 
 }
-    }
+    
 
 
 
@@ -118,19 +121,29 @@ display: block;
         line-height: 255%;
         text-align: center;
         color: #000000;
+      
 } 
 }
 .customer_city{
    margin-bottom: 32px;
 
-    font-family: 'DM Sans';
+    /*font-family: 'DM Sans';
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
         line-height: 37px;
         text-align: center;
     
-        color: #000000;
+        color: #000000;*/
+    @media screen and (min-width: 320px) {
+        font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.8;
+            text-align: center;
+        
+            color: #000000;}
 }
 .customer_city::before {
     content: ". . .";
