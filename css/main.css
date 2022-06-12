@@ -197,7 +197,7 @@ display: block;
   height: 4px;
   display: inline-flex;
   background-size: contain;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   color: var(--primary-color);
 }
 
