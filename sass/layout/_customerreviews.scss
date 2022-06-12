@@ -56,6 +56,7 @@
     width: 12px;
     height: 9.82px;
 }
+
 .customer__text {
     /*max-width: 750px;
   padding-top: 47px;
@@ -63,10 +64,8 @@
   margin-bottom: 16px;
     background-color: #FAFAFA;
 @media screen and (min-width: 320px) {
-        /*width: 280px;*/
-        height: 308px;
-        
-       
+        width: 280px;
+        height: 308px;   
     }
         @media screen and (min-width: 768px) {
             width: 620px;
@@ -158,6 +157,8 @@ display: block;
         line-height: 1.8;
         text-align: center;
         color: #000000;
+        margin-bottom: 32px;
+        
     }
          @media screen and (min-width: 768px) {
              margin-bottom: 32px;}
@@ -177,9 +178,9 @@ display: block;
 .customer_city::before {
     content: "";
     background-image: url(../images/ellipse.png );
-    width: 4px;
-    height: 4px;
-    display: inline-block;
+    width: 32px;
+        height: 4px;
+    display: inline-flex;
         background-size: contain;
         background-repeat: repeat;
     color: var(--primary-color);

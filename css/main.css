@@ -72,7 +72,7 @@
 }
 @media screen and (min-width: 320px) {
   .customer__text {
-    /*width: 280px;*/
+    width: 280px;
     height: 308px;
   }
 }
@@ -173,6 +173,7 @@ display: block;
     line-height: 1.8;
     text-align: center;
     color: #000000;
+    margin-bottom: 32px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -196,9 +197,9 @@ display: block;
 .customer_city::before {
   content: "";
   background-image: url(../images/ellipse.png);
-  width: 4px;
+  width: 32px;
   height: 4px;
-  display: inline-block;
+  display: inline-flex;
   background-size: contain;
   background-repeat: repeat;
   color: var(--primary-color);
