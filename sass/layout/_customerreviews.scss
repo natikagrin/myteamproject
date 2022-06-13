@@ -54,10 +54,10 @@
             width: 620px;
             height: 164px;
         }
-    */
+    
         @media screen and (min-width: 1200px) {
             width: 1034px;
-        }
+        }*/
 }
 
 .customer__text-box {
@@ -73,8 +73,8 @@
 .customer__top-text::before {
     content: '';
     position: absolute;
-    top: -16;
-    left: -10;
+    top: -14px;
+    left: -27px;
     z-index: -1;
     display: inline-block;
     background-size: contain;
@@ -82,9 +82,13 @@
     width: 54px;
     height: 40px;
     background-image: url(../images/lap.png);
+    @media screen and (min-width: 768px) {
+    top: -16px;
+    left: 8px;
+    }
     @media screen and (min-width: 1200px) {
-    top: -15px;
-    left: -20px;
+    top: -15;
+    left: -20;
 
 }
 }
