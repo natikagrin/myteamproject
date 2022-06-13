@@ -61,6 +61,8 @@
 }
 
 .customer__text-box {
+    background-color: #fafafa;
+        padding: 43px 50px 26px 50px;
     padding: 0 20px;
     background-image: repeating-linear-gradient(180deg,
             transparent,
@@ -71,6 +73,7 @@
             }
              @media screen and (min-width: 1200px) {
                 padding: 0px 20px;
+                
              }
 }
 
@@ -92,7 +95,7 @@
     }
     @media screen and (min-width: 1200px) {
     top: -15;
-    left: 12px;
+    left: 15px;
 
 }
 }
