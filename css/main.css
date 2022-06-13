@@ -63,8 +63,13 @@
 }
 
 .customer__text-box {
-  padding: 0 10px;
+  padding: 0 20px;
   background-image: repeating-linear-gradient(180deg, transparent, transparent 29px, #e1e1e1 30px);
+}
+@media screen and (min-width: 768px) {
+  .customer__text-box {
+    padding: 40px;
+  }
 }
 
 .customer__top-text::before {
