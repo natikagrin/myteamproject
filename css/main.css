@@ -53,11 +53,12 @@
      @media screen and (min-width: 768px) {
          width: 620px;
          height: 164px;
-     }
-
-     @media screen and (min-width: 1200px) {
-         width: 1034px;
      }*/
+}
+@media screen and (min-width: 1200px) {
+  .customer__text {
+    width: 1034px;
+  }
 }
 
 .customer__text-box {
@@ -66,7 +67,12 @@
 }
 @media screen and (min-width: 768px) {
   .customer__text-box {
-    padding: 40px;
+    padding: 0 40px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .customer__text-box {
+    padding: 0px 20px;
   }
 }
 
@@ -92,7 +98,7 @@
 @media screen and (min-width: 1200px) {
   .customer__top-text::before {
     top: -15;
-    left: -20;
+    left: 12px;
   }
 }
 
@@ -134,7 +140,7 @@
     line-height: 1.9;
     text-align: center;
     letter-spacing: 0.04em;
-    max-width: 822px;
+    max-width: 751px;
   }
 }
 
